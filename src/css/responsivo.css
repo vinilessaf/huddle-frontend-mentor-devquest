@@ -1,0 +1,56 @@
+@media only screen and (max-width: 980px) {
+    .container {
+        margin: 0 10px;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .logo img {
+        width: 150px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .conteudo-principal {
+        flex-direction: column;
+    }
+
+    .imagem {
+        margin: 20px 0;
+    }
+
+    .imagem img {
+        margin-left: 0;
+    }
+
+    .informacao {
+        margin: 20px;
+    }
+
+    .informacao .cabecalho {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .informacao .descricao {
+        font-size: 1.4rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .informacao button {
+        font-size: 1.4rem;
+        padding: 10px 30px;
+        width: 70%;
+        margin: 50px;
+    }
+
+    .social-media {
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
